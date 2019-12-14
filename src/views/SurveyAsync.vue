@@ -49,6 +49,7 @@
 				created() {
 					console.log('created');
 
+					// laraform event fails
 					this.on('submit', () => {
 						alert('Submission process started')
 					});
@@ -62,7 +63,7 @@
 				methods: {
 					submit() {
 						// implement custom solution
-						console.log('custom submit')
+						console.log('custom submit logic')
 					}
 				}	
 				//template: '<div>I am async!</div>'

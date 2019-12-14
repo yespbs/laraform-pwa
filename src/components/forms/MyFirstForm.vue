@@ -38,6 +38,8 @@
 			}	
 		}),
 		created() {
+			console.log('created');
+			// laraform event fails
 			this.on('submit', () => {
 				alert('Submission process started')
 			})
