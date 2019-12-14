@@ -7,7 +7,8 @@
 <script>
 
 	import Vue from 'vue'
-	import Laraform from 'laraform'
+	// import Laraform from 'laraform' // <- Community package
+	import Laraform from '@laraform/laraform' // <- Preimum package
 
 	Vue.component('MyAsyncForm', function (resolve) {
 		setTimeout(function () {

@@ -2,7 +2,8 @@
 	<laraform :form="storedSchema"></laraform>
 </template>
 <script>
-	import Laraform from 'laraform'
+	// import Laraform from 'laraform' // <- Community package
+	import Laraform from '@laraform/laraform' // <- Preimum package
 
 	export default {
 		mixins: [Laraform],

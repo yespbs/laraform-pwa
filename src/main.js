@@ -5,7 +5,8 @@ import router from './router'
 import store from './store'
 
 // laraform
-import Laraform from 'laraform' // <- Community package
+// import Laraform from 'laraform' // <- Community package
+import Laraform from '@laraform/laraform' // <- Preimum package
 
 // scss
 import './assets/scss/style.scss'
