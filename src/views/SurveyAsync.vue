@@ -45,7 +45,7 @@
 						]
 					}
 				},
-				created() {
+				mounted() {
 					console.log('created');
 
 					this.on('submit', () => {

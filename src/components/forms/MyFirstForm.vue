@@ -1,11 +1,11 @@
 <template>
-	<laraform :form="storedSchema"></laraform>
+	<laraform :form="storedSchema" ref="form$"></laraform>
 </template>
 <script>
-	import Laraform from 'laraform'
+	//import Laraform from 'laraform'
 
 	export default {
-		mixins: [Laraform],
+		//mixins: [Laraform],
 		name: 'MyFirstForm',
 		data: () => ({
 			storedSchema: {
@@ -36,8 +36,8 @@
 				]
 			}	
 		}),
-		created() {
-			this.on('submit', () => {
+		mounted() {
+			this.$refs.form$.on('submit', () => {
 				alert('Submission process started')
 			})
 		},
