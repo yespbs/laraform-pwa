@@ -27,3 +27,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Laraform Issue
+See [Issue #27](https://github.com/laraform/laraform/issues/27)
