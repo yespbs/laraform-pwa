@@ -48,7 +48,7 @@
 				mounted() {
 					console.log('created');
 
-					this.on('submit', () => {
+					/*this.on('submit', () => {
 						alert('Submission process started')
 					});
 
@@ -56,7 +56,7 @@
 						if( res.status == 'success' ){
 							alert(res.message)
 						}
-					});
+					});*/
 				},
 				methods: {
 					submit() {
